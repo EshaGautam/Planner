@@ -9,7 +9,7 @@ const HomePage = (props) => {
       
         const sendDataToDB = async () => {
             try {
-                const response = await fetch("/api/new-task", {
+                const response = await fetch("/api/add-task", {
                     method: "POST",
                     body: JSON.stringify(enteredData),
                     headers: {
@@ -41,7 +41,7 @@ export async function getStaticProps(){
     const db = client.db();
 
     // Accessing the meetups collection
-    const taskCollection = db.collection('new-task');
+    const taskCollection = db.collection('add-task');
 
     const taskArr = await taskCollection.find().toArray()
     //will always return an object which contains props that has data
