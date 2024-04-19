@@ -1,0 +1,23 @@
+.item {
+  margin: 1rem 0;
+}
+
+.content {
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content  {
+  color: #2c292b;
+}
+
+.actions{
+  text-align: center;
+  background-color: maroon;
+  color:white;
+  width: 5rem;
+  border-radius: 2rem;
+
+}
