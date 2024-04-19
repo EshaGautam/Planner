@@ -50,7 +50,7 @@ export async function getStaticProps(){
         props: {
             task: taskArr.map(task=>({
                 title:task.title,
-                compeleted:task.compeleted,
+                status:task.status,
                 description:task.description,
                 id:task._id.toString()
 

@@ -10,7 +10,7 @@ const handler = async (req, res) => {
     if (req.method === 'POST') {
         try {
             const data = req.body;
-            const { title, image,compeleted } = data;
+            const { title, image, status } = data;
 
             // Sending data to the database
             const result = await taskCollection.insertOne(data);

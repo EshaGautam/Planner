@@ -17,7 +17,7 @@ function AddTask(props) {
     const taskData = {
       title: enteredTitle,
       description: enteredDescription,
-      compeleted:false
+      status:'incomplete'
     };
 
     props.onAddTask(taskData);

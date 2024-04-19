@@ -12,7 +12,7 @@ function MainNavigation() {
             <Link href='/'>Today Task</Link>
           </li>
           <li>
-            <Link href='/compeleted'>Compeleted Task</Link>
+            <Link href='/completed'>Compeleted Task</Link>
           </li>
         </ul>
       </nav>
